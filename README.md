@@ -20,9 +20,6 @@ You only need the f5_backup.sh script file. Download this file and import it usi
     `GOTO` **[`https://support.f5.com/csp/article/K13454`](https://support.f5.com/csp/article/K13454)**
     
    
-    ```sh
-    test
-    ```
  
 2. Modify f5_backup.sh to fit your environment.
     ```sh
