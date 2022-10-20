@@ -10,7 +10,8 @@ tmsh save /sys ucs /shared/backup/$backup_file
 
 find -type f -mtime +14 -name '*.ucs' -print0 | xargs -r0 rm --
 
-rsync -avz -e "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null" --progress /shared/backup/$backup_file $login@$rsync_dest:~/ucs
+rsync -avz -e "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null" --progress /shared/backup/$backup_file $login@$rsync_dest:~/ucs --delete-before
+
 
 
 
