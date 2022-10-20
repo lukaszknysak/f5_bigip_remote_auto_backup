@@ -31,9 +31,9 @@ You only need the f5_backup.sh script file. Download this file and import it usi
     ...
     ```
 
-3. Copy f5_backup.sh script to /shared/backup folder on BIG-IP, modify permissions for executing this file *(with file watchers)*
+3. Copy f5_backup.sh script to */shared/backup* folder on BIG-IP, modify permissions for executing this file.
     ```sh
-    npm run dev
+    chmod +x f5_backup.sh
     ```
 
 
