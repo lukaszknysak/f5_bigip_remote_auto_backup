@@ -53,6 +53,9 @@ You only need the f5_backup.sh script file. Download this file and import it usi
     total size is 631747121  speedup is 1.16
     ```
 7. Modify contab to automate the backup process daily at 23:59:
+   
+   Follow the instructions at **[`https://support.f5.com/csp/article/K03108954`](https://support.f5.com/csp/article/K03108954)** 
+   
     ```sh
     [root@bigip-a1::Active:Standalone] backup # crontab -l
     MAILTO=""
