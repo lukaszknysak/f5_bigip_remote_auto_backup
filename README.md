@@ -52,5 +52,15 @@ You only need the f5_backup.sh script file. Download this file and import it usi
     sent 545682664 bytes  received 176018 bytes  8333720.34 bytes/sec
     total size is 631747121  speedup is 1.16
     ```
-
-
+7. Modify contab to automate the backup process daily at 23:59:
+    ```sh
+    [root@bigip-a1::Active:Standalone] backup # crontab -l
+    MAILTO=""
+    1-59/10 * * * * /usr/bin/diskmonitor
+    0 */4 * * * /usr/bin/diskwearoutstat
+    31 07 * * * /usr/bin/updatecheck -a
+    31 07 18 * * /usr/bin/phonehome_upload
+    0 */6 * * * /usr/bin/coreexpiration
+    49 * * * * /usr/bin/copy_rrd save
+    59 23 * * * /shared/backup/f5_backup.sh
+    ```
