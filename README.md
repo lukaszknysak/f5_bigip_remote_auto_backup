@@ -24,7 +24,7 @@ You only need the f5_backup.sh script file. Download this file and import it usi
     test
     ```
  
-2. Install NPM packages
+2. Modify f5_backup.sh to fit your environment.
     ```sh
     test
     ```
