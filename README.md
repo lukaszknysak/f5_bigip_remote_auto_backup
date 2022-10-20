@@ -31,7 +31,7 @@ You only need the f5_backup.sh script file. Download this file and import it usi
     ...
     ```
 
-3. Copy f5_backup.sh script to */shared/backup* folder on BIG-IP, modify permissions for executing this file.
+3. Copy f5_backup.sh script to */shared/backup* folder on BIG-IP, modify permissions for executing this file:
     ```sh
     chmod +x f5_backup.sh
     ```
