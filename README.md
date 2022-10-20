@@ -9,15 +9,15 @@ You only need the f5_backup.sh script file. Download this file and import it usi
 
 
 
-`GOTO` **[`do.co/nginxconfig`](https://do.co/nginxconfig)**
-
 
 
 ## ▶️ Development
 
 1. Refer to the article below to configure SSH public key authentication on BIG-IP systems (11.x - 16.x). Review section Configure public-key authentication from the BIG-IP system to a remote system.
 
-    https://support.f5.com/csp/article/K13454
+    `GOTO` **[`https://support.f5.com/csp/article/K13454`](https://support.f5.com/csp/article/K13454)**
+    
+   
     ```sh
     test
     ```
