@@ -15,7 +15,8 @@ You only need the f5_backup.sh script file. Download this file and import it usi
 
 ## ▶️ Development
 
-1. Clone the repository
+1. Refer to the article below to configure SSH public key authentication on BIG-IP systems (11.x - 16.x)
+    https://support.f5.com/csp/article/K13454
     ```sh
     git clone https://github.com/digitalocean/nginxconfig.io.git
     ```
@@ -31,5 +32,4 @@ You only need the f5_backup.sh script file. Download this file and import it usi
     ```
 
 
-Configuring SSH public key authentication on BIG-IP systems (11.x - 16.x)
-https://support.f5.com/csp/article/K13454
+
