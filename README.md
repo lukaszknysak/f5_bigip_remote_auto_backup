@@ -42,16 +42,15 @@ You only need the f5_backup.sh script file. Download this file and import it usi
 6. Sample output:
     ```sh
     [root@bigip-a1::Active:Standalone] backup # ./f5_backup.sh
-Saving active configuration...
-/shared/backup/2022-10-20_bigip-a1.vera.lab.ucs is saved.
-Warning: Permanently added '10.1.10.71' (ECDSA) to the list of known hosts.
-building file list ...
-1 file to consider
-2022-10-20_bigip-a1.vera.lab.ucs
-   631747121 100%    9.87MB/s    0:01:01 (xfer#1, to-check=0/1)
-
-sent 545682664 bytes  received 176018 bytes  8333720.34 bytes/sec
-total size is 631747121  speedup is 1.16
+    Saving active configuration...
+    /shared/backup/2022-10-20_bigip-a1.vera.lab.ucs is saved.
+    Warning: Permanently added '10.1.10.71' (ECDSA) to the list of known hosts.
+    building file list ...
+    1 file to consider
+    2022-10-20_bigip-a1.vera.lab.ucs
+    631747121 100%    9.87MB/s    0:01:01 (xfer#1, to-check=0/1)
+    sent 545682664 bytes  received 176018 bytes  8333720.34 bytes/sec
+    total size is 631747121  speedup is 1.16
     ```
 
 
