@@ -26,7 +26,12 @@ You only need the f5_backup.sh script file. Download this file and import it usi
  
 2. Modify f5_backup.sh to fit your environment.
     ```sh
-    test
+    ...
+    backupdir=/shared/backup/
+    backup_file="$(date +%Y-%m-%d)"_"$HOSTNAME".ucs
+    login="lukasz"
+    rsync_dest="10.1.10.71"
+    ...
     ```
 
 3. Run the development server *(with file watchers)*
